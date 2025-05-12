@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml.Linq;
+using Newtonsoft.Json;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace FileSystemTree
 {
     public class Folder : Node
     {
+        [JsonProperty]
         private List<Node> children;
         private HashSet<string> tags;
 
@@ -158,11 +160,3 @@ namespace FileSystemTree
         }
     }
 }
-
-
-
-
-
-
-
-

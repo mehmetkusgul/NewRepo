@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace FileSystemTree
 {
     public class File : Node
     {
+        [JsonIgnore]  // JSON'a kaydedilmeyecek
         private string extension;
+
+        [JsonIgnore]  // Sürüm geçmişi JSON'a kaydedilmeyecek
         private Queue<string> versionHistory;
 
-
-    public File(string name, string extension, long size) : base(name + "." + extension, size)
+        public File(string name, string extension, long size) : base(name + (name.EndsWith($".{extension}") ? "" : "." + extension), size)
         {
             this.extension = extension;
             this.versionHistory = new Queue<string>();
@@ -53,6 +56,4 @@ namespace FileSystemTree
             Console.WriteLine($"{indent} {Name} ({Size} bytes)");
         }
     }
-
-
 }
