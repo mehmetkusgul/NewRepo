@@ -15,7 +15,7 @@ Kullanıcılar, dosya sisteminde gezinme, dosya ve klasör oluşturma, silme ve 
 
 1. Bu projeyi klonlayın:
    ```bash
-   git clone https://github.com/kullaniciadi/NewRepo.git
+   git clone https://github.com/mehmetkusgul/NewRepo.git
    ```
 
 2. Visual Studio ile `Dosya_Yonetim.sln` dosyasını açın.
