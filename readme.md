@@ -73,6 +73,14 @@ Lütfen bir pull request (PR) açmadan önce bir issue oluşturun.
 ## 📄 Lisans
 
 Bu proje açık kaynaklıdır. Lisans bilgileri eklenmediği için kullanımda herhangi bir sınırlama bulunmamaktadır.
+## Proje repo linki 
+    https://github.com/mehmetkusgul/NewRepo
+## projeye katılanlar
+ 032290075  MEHMET KÜŞGÜL
+ 032290077  YASİN ÖZAY
+ 032290078  MİRZA KARAKAYA
+ 032290082 TUNAHAN ONURSAL DEMİRAL
+ 032290086  ESMANUR CİMŞİT
 
 
 
